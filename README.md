@@ -3,6 +3,7 @@
 # Simple Script to autofarm TeamR in PoGo
 ____
 ## Requirements
+!!! Works only with Windows
 - First of all install requirements.txt with pip
 - Install scrcpy
 ____
