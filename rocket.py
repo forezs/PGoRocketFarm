@@ -42,7 +42,7 @@ if __name__ == '__main__':
             end = False
 
         if ending - reopen_timer > 120:
-            reopen()
+            action.reopen()
             reopen_timer = time()
             next_timer = time()
             end = False
