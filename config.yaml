@@ -1,0 +1,27 @@
+locations:
+    open_pokestop: [480, 570]                       #Pokestop open location
+    open_pokestop_area: [440, 340, 100, 80]         #R icon area (x, y, w, h)
+
+    pokestop_more_button_area: [630, 170, 60, 60]   #Right up corner button in opened pokestop (x, y, w, h)
+
+    backpack_icon: [375, 190]
+    close_backpack_icon: [480, 980]                 #Button that closes backpack location
+    use_this_party_area: [400, 940, 190, 35]        #Area of use this party text (x, y, w, h)
+
+    berry_encounter_area: [285, 940, 60, 60]        #Berry Area in pokemon encounter
+
+    feed_in_gym_area: [470, 990, 30, 30]            #location of close feed in gym (x, y, w, h)
+
+teleport_plus_gotcha_locations:
+    open_teleport: [680, 500]                       #Open Teleport Location
+    paste_cords: [470, 620]                         #Paste Cord in JoyStick Menu
+    teleport: [620, 690]                            #Teleport Button Location
+
+    pre_throw: [480, 1020]                          #Pokeball Location
+    throw: [480, 120]                               #Min height location ~Camera location in encounter
+
+
+reopen_locations:
+    hal_icon: [315, 700]                            #HAL location in Menu
+    start_service_button: [470, 260]                #Start Service Button in HAL location
+    close_all_trashnews: [260, 130]                 #left up corner location
