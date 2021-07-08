@@ -1,4 +1,5 @@
 from detector import *
+import sys
 
 
 end = False
@@ -14,8 +15,9 @@ if __name__ == '__main__':
     while True:
         ending = time()
 
-        if keyboard.is_pressed('l'):
-            sys.exit()
+        if sys.platform == 'win32' or sys.platform == 'cygwin':
+            if keyboard.is_pressed('l'):
+                sys.exit()
 
         if detector.detect_close_stop() or detector.detect_feed():
             action.click_back()

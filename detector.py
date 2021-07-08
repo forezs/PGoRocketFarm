@@ -1,5 +1,5 @@
 import pyautogui
-import os
+import subprocess
 import sys
 import cv2
 import requests
@@ -45,7 +45,11 @@ class MainAction():
         sleep(1.5)
     
     def reopen(self):
-        keyboard.press_and_release('alt+h')
+        if sys.platform == 'win32' or sys.platform == 'cygwin':
+            keyboard.press_and_release('alt+h')
+        else:
+            pyautogui.hotkey('ctrl', 'h', interval=0.2)
+
         sleep(2)
         self.click(self.config['reopen_locations']['hal_icon'])
         sleep(2)
@@ -214,5 +218,5 @@ def get_invasion():
         coordinates = f'{ans[1]},{ans[2]}'
         prev = (ans[1], ans[2])
 
-    os.system(f'adb shell am start -a android.intent.action.VIEW -d "https://pk.md/{coordinates}"')
+    subprocess.Popen(['adb', 'shell', 'am', 'start', '-a', 'android.intent.action.VIEW', '-d', f'"https://pk.md/{coordinates}"']).communicate()
     already.append(prev)
