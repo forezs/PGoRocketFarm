@@ -5,7 +5,7 @@ ____
 ## Requirements
 !!! Works only with Windows
 - First of all install requirements.txt with pip
-- Install scrcpy
+[scrcpy](https://github.com/Genymobile/scrcpy)
 ____
 ## Setup
 - Edit config.yaml with your coordinates
