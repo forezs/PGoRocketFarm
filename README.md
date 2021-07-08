@@ -3,7 +3,7 @@
 # Simple Script to autofarm TeamR in PoGo
 ____
 ## Requirements
-!!! Works only with Windows
+!!! Don't work on OSX
 - First of all install modules from requirements.txt with pip
 - Install [scrcpy](https://github.com/Genymobile/scrcpy)
 ____
