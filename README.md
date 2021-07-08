@@ -1,8 +1,8 @@
 # PGoRocketFarm
  
-## Simple Script to autofarm TeamR in PoGo
+# Simple Script to autofarm TeamR in PoGo
 ____
-## requirements
+## Requirements
 - First of all install requirements.txt with pip
 - Install scrcpy
 ____
