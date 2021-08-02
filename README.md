@@ -10,5 +10,5 @@ ____
 - Open cmd.exe in this dir and write next command `pip install -r requirements.txt`
 ____
 ## Launch
-- Launch **phone.bat**
+- Start **phone.bat**
 - Start **rocket.py**
