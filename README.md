@@ -7,6 +7,7 @@ ____
 - Install latest version of [Python](https://www.python.org/) (make sure you check the add python to path checkbox)
 - Install OCR from official [repo](https://github.com/UB-Mannheim/tesseract/wiki) or from [google drive](https://drive.google.com/drive/folders/1IeOzPt4HZtn9uB5Os7xDv_myNI0BGTWn?usp=sharing)
 - Install [scrcpy](https://github.com/Genymobile/scrcpy) and add scrcpy.exe to PATH
+- Open cmd.exe in this dir and write next command `pip install -r requirements.txt`
 ____
 ## Launch
-After setup you can launch it by starting rocket.py
+After setup you can launch it by starting **rocket.py**
